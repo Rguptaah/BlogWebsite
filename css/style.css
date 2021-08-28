@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    height: 30vh;
+}
+
+.logo {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+nav {
+    /* border: 1px solid red; */
+    float: left;
+}
+
+nav ul li {
+    margin: 0px 15px;
+    list-style: none;
+}
+
+#search,
+.btn {
+    padding: 10px 15px;
+}
+
+.btn-danger {
+    background-color: rgb(201, 112, 131);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-color: rgb(201, 112, 131);
+}
+
+
+.svg {
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+main {
+    background: rgb(230, 210, 213);
+    width: 90%;
+    margin: auto;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sub-head {
+    background: url('../Images/6.svg') no-repeat center center-cover;
+    width: 90%;
+    margin: auto;
+}
+
+.sub-head hr {
+    margin: 10px 0px;
+}
+
+main section:first-child {
+    margin: 10px 2px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Images/6.svg') no-repeat center center-cover;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.content article {
+    width: 70%;
+    text-align: justify;
+}
+
+.blog-img {
+    width: 250px;
+    margin: 10px;
+}
+
+.flex-blog div {
+    margin-left: 10px;
+}
+
+footer {
+    background-color: rgb(248, 143, 57);
+    color: white;
+    text-align: center;
+}
