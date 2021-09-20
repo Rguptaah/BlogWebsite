@@ -54,7 +54,8 @@ nav ul li {
 main {
     background: rgb(230, 210, 213);
     width: 90%;
-    margin: auto;
+    margin: 5px auto 15px;
+    padding: 34px 25px;
 }
 
 #main {
@@ -91,7 +92,32 @@ main section:first-child {
 }
 
 .flex-blog div {
+    cursor: pointer;
     margin-left: 10px;
+}
+
+.flex li a {
+    text-decoration: none;
+    color: rgb(201, 112, 131);
+    text-transform: uppercase;
+}
+
+.flex li a:hover,
+.flex li a.active {
+    text-decoration: none;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.year {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#twenty,
+#twenty-one {
+    cursor: pointer;
 }
 
 footer {
